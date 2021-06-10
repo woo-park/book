@@ -43,7 +43,7 @@
 
 	<groupId>com.microservice</groupId>
 	<artifactId>book</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>book</name>
 	<description>microservice airline</description>
 	<properties>

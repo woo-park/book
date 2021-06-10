@@ -25,7 +25,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableSwagger2
 public class BookApplication implements CommandLineRunner{
 
 
