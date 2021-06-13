@@ -8,6 +8,7 @@ import com.microservice.book.repository.InventoryRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -21,9 +22,12 @@ import java.util.Set;
 
 @Component
 public class BookingComponent {
+
+
 	private static final Logger logger = LoggerFactory.getLogger(BookingComponent.class);
 //	private static final String FareURL = "http://127.0.0.1:8080";
-	private static final String FareURL = "http://61.78.78.132:8080";
+//	private static final String FareURL = "http://61.78.78.132:8080";
+	private static final String FareURL = "http://172.30.1.33:8080";
 
 	BookingRepository bookingRepository;
 	InventoryRepository inventoryRepository;
